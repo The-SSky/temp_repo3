@@ -5,7 +5,8 @@ def save_domino_pizzas():
     with open(r'domino.htm', 'wb') as pizza_file:
         pizza_file.write(response.content)
 
-def par
+def parse_a_block():
+    pass
 
 headers = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64) ' 
         + 'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2919.83 Safari/537.36'}
